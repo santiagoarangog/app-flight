@@ -5,6 +5,14 @@ module.exports = {
   "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    container:{
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '3rem',
+        lg: '4rem',
+      },
+    },
     extend: {
       colors:{
         primary:{

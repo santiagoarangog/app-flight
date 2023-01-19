@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import Navbar from './components/Navbar.vue'
 </script>
 
 <template>
-  <nav class="flex items-center justify-between">
-    <div class="flex gap-2">
-      <h1 class="text-white font-bold text-2xl">App Fl<span class="text-secondary">ig</span>ht </h1>
-      <img width="40" height="40" viewBox="0 0 40 40" src="./assets/avion.png" alt="">
+  <Navbar/>
+<section id="home" class="px-10">
+  <div class="text-4xl font-bold text-white">
+    <div class="flex items-center gap-3">
+      <h2>BOOO</h2>
+      <img width="60" height="60" viewBox="0 0 60 60" src="./assets/tiempo-de-vuelo.png" alt="">
     </div>
-  </nav>
+    <h2>TRICK OR TREAT!!</h2>
+  </div>
+</section>
 </template>
