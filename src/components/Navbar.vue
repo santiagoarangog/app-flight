@@ -1,10 +1,10 @@
 
 <template>
   
-      <nav class="flex items-center justify-between container pt-10">
+      <nav class="flex items-center justify-between h-32">
     <div class="flex gap-2">
-      <h1 class="text-white font-bold text-2xl">App Fl<span class="text-secondary">ig</span>ht </h1>
-      <img width="40" height="40" viewBox="0 0 40 40" src="../assets/avion.png" alt="">
+      <h1 class="text-white font-bold text-3xl">App Fl<span class="text-secondary">ig</span>ht </h1>
+      <img width="50" height="50" viewBox="0 0 50 50" src="../assets/avion .png" alt="">
     </div>
     <div class="flex items-center gap-10">
       <a class="text-white font-medium" href="#home">Home</a>
