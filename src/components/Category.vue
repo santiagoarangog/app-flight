@@ -25,11 +25,11 @@ const categories = [
 </script>
 <template>
     <section id="category" class="flex flex-col items-center py-32">
-        <h2 class="my-24  text-5xl font-bold text-white">Categorias</h2>
-         <div class="grid grid-cols-3 place-items-center">
+        <h2 class="my-24  text-5xl md:text-6xl  font-bold text-white">Categorias</h2>
+         <div class="grid grid-cols-1  md:grid-cols-3 place-items-center">
             <div v-for="category of categories" :key="category.title" class="text-white grid place-items-center gap-5 text-center">
                 <div>
-                    <img :src="category.image" alt="" width="140">
+                    <img :src="category.image" class="ml-28 md:w-[45%] " alt="" >
                 </div>
                 <h3 class="text-3xl font-bold">{{ category.title }}</h3>
                 <p class="w-3/4">{{ category.desc }} </p>
@@ -37,17 +37,17 @@ const categories = [
          </div>
     </section >
     
-    <section class="grid grid-flow-col grid-cols-2 gap-10 items-center">
-    <div class="p-10">
+    <section class="grid grid-flow-col grid-cols-1 md:grid-cols-2 md:gap-10 items-center">
+    <div class="md:p-10">
         <img src="../assets/img-category/landing.png" alt="" >
     </div>
-     <div >
-        <h2 class="text-5xl font-bold text-white">Registra tus Horas </h2>
+     <div class="text-center flex flex-col items-center">
+        <h2 class="text-5xl md:text-6xl font-bold text-white">Registra tus Horas </h2>
         <div class="flex items-center gap-5 ">
-            <h2 class="text-5xl font-bold text-white ">de Forma Segura</h2>
-            <img width="40" src="../assets/img-category/registro.png" alt="">
+            <h2 class="text-5xl md:text-6xl font-bold text-white ">de Forma Segura</h2>
+            <img  src="../assets/img-category/registro.png" class="w-9 md:w-12" alt="">
         </div>
-    <p class="mt-12 text-white text-xl w-[80%]">Ingresa tus horas de vuelo con la confianza de que se almacenarán correctamente
+    <p class="mt-8 md:mt-12 text-white text-lg md:text-xl w-full md:w-[80%]">Ingresa tus horas de vuelo con la confianza de que se almacenarán correctamente
             y cuando necesites verificar dicho registro estarán disponibles en todo momento.</p>
     </div>
     </section>
