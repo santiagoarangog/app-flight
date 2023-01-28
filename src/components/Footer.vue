@@ -9,7 +9,7 @@
          <p class="text-white leading-loose tracking-wide w-[80%]">
      Voluptate cupidatat dolor excepteur amet quis sunt duis deserunt non aliqua. Et elit laborum cupidatat pariatur
      est amet. Voluptate exercitation exercitation in laboris sit anim anim sit.</p>
-    <img class="w-12 -translate-x-10" src="../assets/img-footer/correo-.png" alt="">
+    <img class="w-14 -translate-x-10" src="../assets/img-footer/correo-.png" alt="">
     </div>
     <div class="grid grid-cols-3 gap-12 text-white">
        <div >
@@ -40,8 +40,8 @@
        </div>   
     </div>
     </div>
-    <div class="grid place-items-center mb-20 w-full ">
-        <div class="flex items-center gap-5">
+    <div class="grid place-items-center my-20 w-full ">
+        <div class="flex items-center gap-10">
             <a href="#" class="bg-secondary h-12 w-12  p-2 grid place-items-center rounded-md ">
                 <img src="../assets/img-footer/facebook.png" alt="">
             </a>
@@ -54,7 +54,11 @@
                 <img src="../assets/img-footer/twitter.png" alt="">
             </a>
         </div>
-
+        <div>
+           <p class="text-lg font-medium text-white mt-8 tracking-wider">
+            &copy; Copyright, App Flight 2023, All rights reserved. 
+           </p> 
+        </div>
     </div>
 </footer>
 </template>
