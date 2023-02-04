@@ -14,27 +14,27 @@ const pilot=[
     {
         title:'ventana',
         image:img2,
-        desc:'elemento esencial para dirigir la aeronave moderadamente en la direccion deseada'
+        desc:'elemento esencial para observar todo lo que este al lado de la aeronave desde la cabina'
     },
     {
         title:'pilot cap',
         image:img3,
-        desc:'elemento esencial para dirigir la aeronave moderadamente en la direccion deseada'
+        desc:'elemento esencial para pertenecer a la aerolinea y dar imagen  de esta'
     },
     {
         title:'radar',
         image:img4,
-        desc:'elemento esencial para dirigir la aeronave moderadamente en la direccion deseada'
+        desc:'elemento esencial para encontrar y monitorear todo lo que esta alrededor  en el aire'
     },
     {
         title:'insignias',
         image:img5,
-        desc:'elemento esencial para dirigir la aeronave moderadamente en la direccion deseada'
+        desc:'elemento esencial para demostrar habilidades, experiencia y capacidad volando.'
     },
     {
         title:'asiento',
         image:img6,
-        desc:'elemento esencial para dirigir la aeronave moderadamente en la direccion deseada'
+        desc:'elemento esencial para comodidad durante largas horas de vuelo que proporciona control para volante y pedales'
     }
 ]
 
