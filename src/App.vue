@@ -1,9 +1,19 @@
-<script setup lang="ts">
+<script setup>
+import Navbar from './components/Navbar.vue';  
+import Home  from './components/Home.vue';
+import Category from './components/Category.vue';
+import pilot from './components/pilot.vue';
+import Subscribe from './components/Subscribe.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <p class="bg-blue-50">Prueba</p>
-  <div class="h-[50%] bg-red-50">
-    Lorem ipsum
-  </div>
+<div classs="container">
+    <Navbar/>
+    <Home/>
+    <Category/>
+    <pilot/>
+    <Subscribe/>
+    <Footer/>
+</div>
 </template>
